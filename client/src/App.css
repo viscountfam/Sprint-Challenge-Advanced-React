@@ -31,3 +31,18 @@
     transform: rotate(360deg);
   }
 }
+
+.dark-mode {
+  color: #fff;
+  background-color: #282c34;
+}
+
+.player-cards {
+  background: linear-gradient(135deg, #f6f8fa 0%, gray 100%);
+  color: #000000;
+  opacity: 0.7;
+}
+
+.player-cards .dark-mode-cards {
+  color: gold;
+}
