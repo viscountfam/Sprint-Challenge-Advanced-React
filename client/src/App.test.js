@@ -16,9 +16,8 @@ test('All Player cards are rendered', () => {
   expect(countries).toHaveLength(101);
 });
 
-test('Marta exists', () => {
+test('Lieke exists', () => {
   const {getByText} = render (<App/>);
-  const marta = getByText(/marta/i);
-  expect(marta).toBeInTheDocument();
-  const 
+  const lieke = getByText(/lieke/i);
+  expect(lieke).toBeInTheDocument()
 })
