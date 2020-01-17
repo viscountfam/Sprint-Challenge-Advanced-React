@@ -40,9 +40,11 @@
 .player-cards {
   background: linear-gradient(135deg, #f6f8fa 0%, gray 100%);
   color: #000000;
-  opacity: 0.7;
+  width: 50%;
+  margin: auto;
 }
 
 .player-cards .dark-mode-cards {
   color: gold;
+  background: #282c34;
 }
