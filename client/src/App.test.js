@@ -12,7 +12,7 @@ import App from './App';
 
 test('All Player cards are rendered', () => {
   const { getAllByText } = render(<App/>);
-  const countries = getAllByText(/country/i);
+  const countries = getAllByText(/Country/i);
   expect(countries).toHaveLength(101);
 });
 
@@ -20,4 +20,9 @@ test('Lieke exists', () => {
   const {getByText} = render (<App/>);
   const lieke = getByText(/lieke/i);
   expect(lieke).toBeInTheDocument()
+})
+
+test('Searches are rendered', () => {
+  
+
 })
