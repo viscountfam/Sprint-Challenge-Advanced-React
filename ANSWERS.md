@@ -7,4 +7,4 @@ You would use class components instead of functional components because you are 
 - [x] What is the purpose of a custom hook?
     The purpose of custom hooks is to give you reusable hooks that have the functionality of the basic hooks as well often used methods such as event handlers.
 - [x] Why is it important to test our apps?
-    It's important to test our happs so that we have confidence that our users will get the best possible experience when they use our apps.
+    It's important to test our apps so that we have confidence that our users will get the best possible experience when they use our apps.
